@@ -1,0 +1,8 @@
+form { 
+    margin : 50px
+}
+
+p , label { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 35px;}
+
+    [type="submit"] { padding : 5px 15px}

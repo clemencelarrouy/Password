@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta description="Projet Autocomplete" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/latest/normalize.css"
+    />
+    
+    <link rel="stylesheet" href="./style.css" />
+
+    <script type="module" src="./index.js" ></script>
+    
+    <title>Autocomplete</title>
+  </head>
+
+  <body>
+
+    <form> 
+      <label for="number_total" id="length_number">nombre de caractère :</label><br>
+      <input type="number" min="8" step="1" id="number_total" name="number_total" placeholder="8" value="8"><br>
+
+      <input type="checkbox" id="check_number" name="number" value="number">
+      <label for="number">Nombre</label><br>
+
+      <input type="checkbox" id="check_maj" name="maj" value="maj">
+      <label for="maj"> Majuscule</label><br>
+
+      <input type="checkbox" id="check_special" name="special" value="special">
+      <label for="special"> Caractère spécial</label><br>
+
+
+      <input type="submit" value="Submit" id="submit"><br>
+
+      <label for="result">votre mot de passe est :</label><br>
+      <input type="text" id="result_password" name="result"><br>
+  </form>
+  </body>
+</html>
